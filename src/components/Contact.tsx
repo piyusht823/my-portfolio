@@ -116,19 +116,19 @@ const Contact = () => {
               <h3 className="text-xl font-bold mb-6">Find Me Online</h3>
               
               <div className="flex flex-col gap-4">
-                <a href="#" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
+                <a href="https://github.com/piyusht823" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
                   <Github className="text-hacker-neon" size={20} />
                   <span>github.com/piyusht823</span>
                 </a>
                 
-                <a href="#" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/in/piyusht823/" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
                   <Linkedin className="text-hacker-cyan" size={20} />
-                  <span>linkedin.com/in/piyusht823</span>
+                  <span>linkedin.com/in/piyusht823/</span>
                 </a>
                 
-                <a href="#" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
+                <a href="https://x.com/piyusht823" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
                   <Twitter className="text-hacker-magenta" size={20} />
-                  <span>twitter.com/piyusht823</span>
+                  <span>x.com/piyusht823</span>
                 </a>
               </div>
             </div>

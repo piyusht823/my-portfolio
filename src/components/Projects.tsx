@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Code, Shield, Database, Link, Github } from 'lucide-react';
+import { Code, Shield, Database, Stethoscope, Waypoints, Link, Github, Video } from 'lucide-react';
 
 const ProjectCard = ({ 
   title, 
@@ -15,14 +15,14 @@ const ProjectCard = ({
   tags: string[]; 
   icon: React.ElementType;
   iconColor: string;
-  links: { demo?: string; github?: string } 
+  links: { demo?: string; github?: string ; video?: string }; 
 }) => {
   return (
     <div className="card-hacker group">
       <div className="absolute -inset-0.5 bg-gradient-to-r from-hacker-neon/30 to-hacker-magenta/30 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500"></div>
       <div className="relative">
         <div className="flex items-center gap-2 mb-4">
-          <Icon className={iconColor} size={24} />
+          <Icon className={iconColor} size={22} />
           <h3 className="text-xl font-bold text-white">{title}</h3>
         </div>
         
@@ -63,6 +63,19 @@ const ProjectCard = ({
               <span>Source Code</span>
             </a>
           )}
+
+          {links.video && (
+            <a 
+              href={links.video} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-gray-300 hover:text-white transition-colors"
+            >
+              <Video size={16} />
+              <span>Watch Video</span>
+            </a>
+          )}
+
         </div>
       </div>
     </div>
@@ -72,52 +85,28 @@ const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
-      title: "SecureAuth",
-      description: "A secure authentication system with multi-factor authentication, biometric verification, and comprehensive audit logging.",
-      tags: ["React", "Node.js", "JWT", "Biometrics API"],
-      icon: Shield,
-      iconColor: "text-hacker-magenta",
-      links: { demo: "#", github: "#" }
-    },
-    {
-      title: "DataVault",
-      description: "Encrypted data storage solution with zero-knowledge architecture, ensuring that only the user can access their data.",
-      tags: ["Python", "Cryptography", "AWS", "Redis"],
-      icon: Database,
-      iconColor: "text-hacker-cyan",
-      links: { demo: "#", github: "#" }
-    },
-    {
-      title: "CodeGuardian",
-      description: "Automated code security scanner that identifies vulnerabilities and suggests secure coding practices.",
-      tags: ["TypeScript", "Static Analysis", "OWASP", "CI/CD"],
+      title: "codegenerate",
+      description: "This Spring Boot application generates end-to-end code for projects, performs code analysis (e.g., languages used and number of lines of code), and stores the code along with additional information such as language and code lines in a database.",
+      tags: ["Python", "Next.js", "Spring Boot", "PostgreSQL", "Gen AI"],
       icon: Code,
-      iconColor: "text-hacker-neon",
-      links: { demo: "#", github: "#" }
-    },
-    {
-      title: "NetMonitor",
-      description: "Real-time network traffic analyzer that detects suspicious activities and potential security threats.",
-      tags: ["Go", "Packet Analysis", "Machine Learning", "Visualization"],
-      icon: Shield,
       iconColor: "text-hacker-cyan",
-      links: { demo: "#", github: "#" }
+      links: { github: "https://github.com/piyusht823/codegenerate" }
     },
     {
-      title: "CloudShield",
-      description: "Comprehensive cloud security posture management solution for AWS, Azure, and GCP environments.",
-      tags: ["React", "Terraform", "Cloud APIs", "Compliance"],
-      icon: Database,
+      title: "saarthi",
+      description: "It is a comprehensive real-time remote health monitoring system featuring an IoT device and a web application that facilitates monitoring and interaction between patients and doctors.",
+      tags: ["JavaScript", "C++", "iOT", "Firebase"],
+      icon: Stethoscope,
       iconColor: "text-hacker-magenta",
-      links: { github: "#" }
+      links: { demo: "https://saarthiapp.netlify.app/", github: "https://github.com/piyusht823/saarthi"}
     },
     {
-      title: "SecurePipe",
-      description: "Secure CI/CD pipeline framework with built-in security checks and compliance validation.",
-      tags: ["Docker", "Kubernetes", "Jenkins", "Compliance"],
-      icon: Code,
+      title: "Alumni association platform",
+      description: "CUAlumni is an alumni association platform developed for my university, utilizing PHP for the backend and MySQL for the database.",
+      tags: ["HTML", "JavaScript", "mySQL", "php"],
+      icon: Waypoints,
       iconColor: "text-hacker-neon",
-      links: { github: "#" }
+      links: { github: "https://github.com/piyusht823/Alumni-Association" }
     }
   ];
 

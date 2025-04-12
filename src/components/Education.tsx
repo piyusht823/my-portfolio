@@ -48,7 +48,7 @@ const Education = () => {
                   <div className="flex items-start gap-2">
                     <FileText className="text-hacker-neon mt-1" size={18} />
                     <p className="text-gray-300">
-                      Specialized in Artificial Intelligence and Machine Learning. Completed thesis on "Neural Network Applications in Cybersecurity".
+                       Completed my Bachelor's degree with more focus on core Computer Science and Software Development.
                     </p>
                   </div>
                 </div>

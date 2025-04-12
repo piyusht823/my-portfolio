@@ -23,7 +23,7 @@ const About = () => {
               <div className="flex items-center gap-2 mb-3">
                 <Calendar className="text-hacker-magenta" size={18} />
                 <span className="text-gray-400">Experience:</span>
-                <span className="text-white">2+ Years</span>
+                <span className="text-white">1.8 Years</span>
               </div>
               
               <div className="flex items-center gap-2 mb-3">
@@ -61,7 +61,7 @@ const About = () => {
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <span className="text-hacker-neon">{'>'}</span>
-                  <span>Full-Stack Development (React, Node.js, Python)</span>
+                  <span>Full-Stack Development (Python, React, ML, Spring Boot)</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-hacker-neon">{'>'}</span>
@@ -69,7 +69,7 @@ const About = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-hacker-neon">{'>'}</span>
-                  <span>Mobile App Development</span>
+                  <span>Worked on ML and Gen AI solutions</span>
                 </li>
               </ul>
             </div>
@@ -92,7 +92,7 @@ const About = () => {
               </ul>
             </div>
             
-            <div className="card-hacker">
+            {/* <div className="card-hacker">
               <h3 className="text-hacker-magenta mb-4">DevOps & Infrastructure</h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
@@ -108,7 +108,7 @@ const About = () => {
                   <span>Containerization & Orchestration</span>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

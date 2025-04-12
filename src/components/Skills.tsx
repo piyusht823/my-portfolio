@@ -47,10 +47,9 @@ const Skills = () => {
       icon: Code,
       iconColor: "text-hacker-neon",
       skills: [
-        { name: "JavaScript/TypeScript", level: 9 },
+        { name: "JavaScript", level: 9 },
         { name: "Python", level: 8 },
-        { name: "Go", level: 7 },
-        { name: "Rust", level: 6 }
+        { name: "Java", level: 7 },
       ]
     },
     {
@@ -60,8 +59,7 @@ const Skills = () => {
       skills: [
         { name: "React", level: 9 },
         { name: "Vue.js", level: 7 },
-        { name: "HTML/CSS", level: 9 },
-        { name: "WebAssembly", level: 6 }
+        { name: "HTML/CSS", level: 9 }
       ]
     },
     {
@@ -71,8 +69,7 @@ const Skills = () => {
       skills: [
         { name: "Node.js", level: 9 },
         { name: "Django", level: 7 },
-        { name: "Express", level: 8 },
-        { name: "GraphQL", level: 7 }
+        { name: "Express", level: 8 }      
       ]
     },
     {
@@ -82,30 +79,7 @@ const Skills = () => {
       skills: [
         { name: "PostgreSQL", level: 8 },
         { name: "MongoDB", level: 9 },
-        { name: "Redis", level: 7 },
-        { name: "Elasticsearch", level: 6 }
-      ]
-    },
-    {
-      title: "DevOps",
-      icon: Command,
-      iconColor: "text-hacker-neon",
-      skills: [
-        { name: "Docker", level: 9 },
-        { name: "Kubernetes", level: 7 },
-        { name: "CI/CD", level: 8 },
-        { name: "Terraform", level: 7 }
-      ]
-    },
-    {
-      title: "Security",
-      icon: Shield,
-      iconColor: "text-hacker-cyan",
-      skills: [
-        { name: "Penetration Testing", level: 8 },
-        { name: "Secure Coding", level: 9 },
-        { name: "Threat Modeling", level: 7 },
-        { name: "Cryptography", level: 6 }
+        { name: "mySQL", level: 7 }      
       ]
     }
   ];
