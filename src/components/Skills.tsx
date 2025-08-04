@@ -47,9 +47,9 @@ const Skills = () => {
       icon: Code,
       iconColor: "text-hacker-neon",
       skills: [
+        { name: "Python", level: 10 },
         { name: "JavaScript", level: 9 },
-        { name: "Python", level: 8 },
-        { name: "Java", level: 7 },
+        { name: "Java", level: 8 },
       ]
     },
     {
@@ -57,9 +57,9 @@ const Skills = () => {
       icon: Monitor,
       iconColor: "text-hacker-cyan",
       skills: [
-        { name: "React", level: 9 },
-        { name: "Vue.js", level: 7 },
-        { name: "HTML/CSS", level: 9 }
+        { name: "React", level: 8 },
+        { name: "Vue.js", level: 8 },
+        { name: "HTML/CSS", level: 10 }
       ]
     },
     {
@@ -67,9 +67,9 @@ const Skills = () => {
       icon: Server,
       iconColor: "text-hacker-magenta",
       skills: [
-        { name: "Node.js", level: 9 },
-        { name: "Django", level: 7 },
-        { name: "Express", level: 8 }      
+        { name: "Flask", level: 10 },
+        { name: "FastAPI", level: 9 },
+        { name: "SprinBoot", level: 8 }      
       ]
     },
     {
@@ -77,9 +77,9 @@ const Skills = () => {
       icon: Database,
       iconColor: "text-hacker-purple",
       skills: [
-        { name: "PostgreSQL", level: 8 },
-        { name: "MongoDB", level: 9 },
-        { name: "mySQL", level: 7 }      
+        { name: "PostgreSQL", level: 10 },
+        { name: "MongoDB", level: 8 },
+        { name: "mySQL", level: 10 }      
       ]
     }
   ];

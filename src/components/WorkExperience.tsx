@@ -81,11 +81,11 @@ const WorkExperience = () => {
               <div className="flex flex-wrap gap-4 text-gray-400 mb-4 text-sm">
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4 text-hacker-magenta" />
-                  2023 - 2025
+                  June 2023 - Present
                 </span>
                 <span className="flex items-center gap-1">
                   <MapPin className="w-4 h-4 text-hacker-neon" />
-                  Bangalore, India
+                  Bengaluru, India
                 </span>
                 <span className="flex items-center gap-1">
                   <Briefcase className="w-4 h-4 text-hacker-purple" />
@@ -96,9 +96,7 @@ const WorkExperience = () => {
               <div className="flex items-start gap-3 text-gray-300 text-sm leading-relaxed">
                 <FileText className="mt-1 text-hacker-cyan" />
                 <p>
-                  Developed high-security backend APIs for fintech apps with Spring
-                  and OAuth2.0. Optimized real-time data processing via WebSocket
-                  architecture and implemented robust CI/CD pipelines.
+                  Enhanced an AI-Based Smart Risk Analyzer, which reduced unplanned outages by 15%. He also engineered a machine learning pipeline with over 90% accuracy and created a robust Flask backend API to handle hundreds of concurrent users. This work improved data-driven decision-making, shortening manual risk assessment cycles by 30%.
                 </p>
               </div>
             </div>

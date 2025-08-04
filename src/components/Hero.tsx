@@ -49,13 +49,12 @@ const Hero = () => {
         </div>
         
         <p className="text-gray-300 mb-8 text-md md:text-lg leading-relaxed">
-          I create secure, efficient, and innovative software solutions.
-          Specializing in full-stack development, cybersecurity, and system architecture.
+          I specialize in using Python and backend frameworks to create and deploy intelligent, data-driven applications, with a strong focus on Generative AI and large language models. I invite you to explore my portfolio to see how I can apply my skills to build innovative solutions.
         </p>
         
         <div className="flex flex-wrap justify-center gap-4">
           <button className="px-6 py-3 border border-hacker-neon text-hacker-neon hover:bg-hacker-neon/10 rounded transition-all hover:box-glow">
-            <a href="#" className="text-white hover:text-hacker-neon transition-colors">Resume</a>
+            <a href="https://drive.google.com/file/d/1opbB4GmYft7Ch8c7kyNnMfm4x8tKQv_I/view?usp=sharing" target="_blank" className="text-white hover:text-hacker-neon transition-colors">Resume</a>
           </button>
           
           <button className="px-6 py-3 bg-hacker-neon text-hacker-black hover:bg-hacker-neon/80 rounded transition-all hover:box-glow">

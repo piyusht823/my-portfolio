@@ -23,13 +23,13 @@ const About = () => {
               <div className="flex items-center gap-2 mb-3">
                 <Calendar className="text-hacker-magenta" size={18} />
                 <span className="text-gray-400">Experience:</span>
-                <span className="text-white">1.8 Years</span>
+                <span className="text-white">2+ Years</span>
               </div>
               
               <div className="flex items-center gap-2 mb-3">
                 <MapPin className="text-hacker-neon" size={18} />
                 <span className="text-gray-400">Location:</span>
-                <span className="text-white">Bangalore, India</span>
+                <span className="text-white">Bengaluru, India</span>
               </div>
               
               <div className="flex items-center gap-2">
@@ -40,14 +40,13 @@ const About = () => {
             </div>
             
             <p className="text-gray-300 mb-4">
-              I'm a passionate software engineer with expertise in building secure, robust, and scalable applications.
-              My journey in the tech world began with a fascination for how systems work and how they can be optimized.
+              A highly motivated Software Engineer with over 2 years of experience in designing, building, and deploying intelligent systems and data-driven applications. Expertise in leveraging Python and backend frameworks with a strong focus on Generative AI and large language models. Proven ability to enhance existing systems, develop machine learning pipelines, and create robust APIs with measurable impact on efficiency and decision-making.
             </p>
             
-            <p className="text-gray-300">
+            {/* <p className="text-gray-300">
               When I'm not coding, you can find me participating in CTF competitions, contributing to open-source projects,
               or exploring the latest advancements in technology.
-            </p>
+            </p> */}
           </div>
           
           <div className="md:w-1/2">
@@ -57,37 +56,37 @@ const About = () => {
             </h2>
             
             <div className="card-hacker mb-4">
-              <h3 className="text-hacker-neon mb-4">Software Development</h3>
+              <h3 className="text-hacker-neon mb-4">Tech-skills</h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <span className="text-hacker-neon">{'>'}</span>
-                  <span>Full-Stack Development (Python, React, ML, Spring Boot)</span>
+                  <span>Programming Language: Python, C++, Java, JavaScript</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-hacker-neon">{'>'}</span>
-                  <span>API Design & Development</span>
+                  <span>Frameworks & Technology: Flask, FastAPI, ML, Gen AI, Springboot</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-hacker-neon">{'>'}</span>
-                  <span>Worked on ML and Gen AI solutions</span>
+                  <span>Database: PostgreSQL, MySQL</span>
                 </li>
               </ul>
             </div>
             
             <div className="card-hacker mb-4">
-              <h3 className="text-hacker-cyan mb-4">Cybersecurity</h3>
+              <h3 className="text-hacker-cyan mb-4">Soft-skills</h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <span className="text-hacker-cyan">{'>'}</span>
-                  <span>Penetration Testing</span>
+                  <span> Analytical Thinking</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-hacker-cyan">{'>'}</span>
-                  <span>Secure Coding Practices</span>
+                  <span>Collaboration</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-hacker-cyan">{'>'}</span>
-                  <span>Vulnerability Assessment</span>
+                  <span>Adaptability</span>
                 </li>
               </ul>
             </div>
