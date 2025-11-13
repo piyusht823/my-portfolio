@@ -14,7 +14,7 @@ const WorkExperience = () => {
 
         <div className="relative border-l-2 border-hacker-neon/30 space-y-12 pl-8">
           {/* Job 1 */}
-          {/* <div className="relative group">
+          <div className="relative group">
             <div className="absolute -left-10 top-1">
               <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-hacker-neon">
               <img
@@ -28,14 +28,14 @@ const WorkExperience = () => {
 
             <div className="bg-hacker-darker border border-hacker-neon/20 rounded-xl p-6 hover:shadow-neon transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-hacker-neon">
-                Senior Software Engineer
+                Software Engineer
               </h3>
-              <p className="text-white text-lg mb-2">Astreya Inc.</p>
+              <p className="text-white text-lg mb-2">Astreya</p>
 
               <div className="flex flex-wrap gap-4 text-gray-400 mb-4 text-sm">
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4 text-hacker-magenta" />
-                  2025 - Present
+                  Oct 2025 - Present
                 </span>
                 <span className="flex items-center gap-1">
                   <MapPin className="w-4 h-4 text-hacker-cyan" />
@@ -50,14 +50,11 @@ const WorkExperience = () => {
               <div className="flex items-start gap-3 text-gray-300 text-sm leading-relaxed">
                 <FileText className="mt-1 text-hacker-neon" />
                 <p>
-                  Leading the design and development of a GenAI-powered code
-                  assistant platform using LangChain, Redis, Neo4j, and Spring Boot.
-                  Focused on system scalability, fast response caching, and visual
-                  insights via Redis + chart dashboards.
+                Building a platform that integrates Generative AI, FastAPI, and MCP to simplify API management and accelerate the software development lifecycle for developers.
                 </p>
               </div>
             </div>
-          </div> */}
+          </div>
 
           {/* Job 2 */}
           <div className="relative group">
@@ -81,7 +78,7 @@ const WorkExperience = () => {
               <div className="flex flex-wrap gap-4 text-gray-400 mb-4 text-sm">
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4 text-hacker-magenta" />
-                  June 2023 - Present
+                  June 2023 - Oct 2025
                 </span>
                 <span className="flex items-center gap-1">
                   <MapPin className="w-4 h-4 text-hacker-neon" />

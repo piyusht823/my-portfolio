@@ -58,7 +58,7 @@ const Skills = () => {
       iconColor: "text-hacker-cyan",
       skills: [
         { name: "React", level: 8 },
-        { name: "Vue.js", level: 8 },
+        { name: "Vue.js", level: 7 },
         { name: "HTML/CSS", level: 10 }
       ]
     },
@@ -67,8 +67,8 @@ const Skills = () => {
       icon: Server,
       iconColor: "text-hacker-magenta",
       skills: [
-        { name: "Flask", level: 10 },
-        { name: "FastAPI", level: 9 },
+        { name: "FastAPI", level: 10 },
+        { name: "Flask", level: 9 },
         { name: "SprinBoot", level: 8 }      
       ]
     },
@@ -79,7 +79,17 @@ const Skills = () => {
       skills: [
         { name: "PostgreSQL", level: 10 },
         { name: "MongoDB", level: 8 },
-        { name: "mySQL", level: 10 }      
+        { name: "mySQL", level: 9 }      
+      ]
+    },
+    {
+      title: "Other Technologies",
+      icon: GitBranch,
+      iconColor: "text-hacker-blue",
+      skills: [
+        { name: "MCP(Model Context Protocol)", level: 9 },
+        { name: "Gen AI", level: 10 },
+        { name: "Agentic AI", level: 8 }      
       ]
     }
   ];
